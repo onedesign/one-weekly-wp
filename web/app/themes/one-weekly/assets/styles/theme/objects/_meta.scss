@@ -1,0 +1,21 @@
+.meta {
+  color: shade(color(light-background), 40);
+}
+
+.meta__postdate,
+.meta__author,
+.meta__categories {
+  display: inline-block;
+}
+
+.permalink {
+  display: inline-block;
+  vertical-align: baseline;
+  float: right;
+  margin-left: .5rem;
+  color: shade(color(light-background), 20);
+
+  &:hover {
+    color: shade(color(light-background), 40);    
+  }
+}

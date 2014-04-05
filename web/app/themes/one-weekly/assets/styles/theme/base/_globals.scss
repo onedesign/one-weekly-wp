@@ -1,0 +1,44 @@
+body {
+  background-color: color(light-background);
+  font-family: type(body);
+}
+
+a {
+  text-decoration: none;
+  @include link-colors(color(primary), shade(color(primary), 40));
+  @include transition-property(color);
+  @include transition-duration();
+  @include transition-timing-function();
+}
+
+.site-footer {
+  margin-top: torem(40);
+  padding: 1rem 0;
+  background-color: shade(color(light-background), 10);
+
+  .home & {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+}
+
+.site-header {
+  padding: 1rem 0 0;
+  background-color: color(dark-background);
+  margin-bottom: torem(30);
+
+  .home & {
+    padding: 0;
+  }
+}
+
+.main-nav {
+  background-color: tint(color(dark-background), 12);
+}
+
+.page-header {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid color(text);
+}

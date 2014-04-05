@@ -1,0 +1,37 @@
+.site-search {
+}
+
+.site-search__input-group {
+  background: color(reverse);
+  position: relative;
+  border: 3px solid color(reverse);
+  border-radius: 3rem;
+  padding-right: 100px;
+}
+
+.site-search__label {
+  @include hide(accessible);
+}
+
+.site-search__search-field {
+  border: 0;
+  width: 100%;
+  padding: .5em;
+  font-size: 1rem;
+  font-family: type(body);
+  height: 100%;
+  border-radius: 3rem;
+}
+
+.site-search__submit {
+  -webkit-appearance: none;
+  width: 90px;
+  margin: 0;
+  border: 0;
+  font-family: type(body);
+  font-size: 1rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 3rem;
+}

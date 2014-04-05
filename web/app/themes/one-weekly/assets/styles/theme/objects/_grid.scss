@@ -1,0 +1,28 @@
+.row {
+  @include clearfix(true);
+  width: 90%;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.row--lg {
+  @include layout(2 1, $gutter: 1/6) {
+    .lg__main,
+    .lg__aside {
+      max-width: 35rem;
+      margin: 0 auto;
+    }
+
+    .lg__main--sidebar {
+      @include breakpoint(900px) {
+        @include grid-span(1,1);
+      }
+    }
+
+    .lg__aside {
+      @include breakpoint(900px) {
+        @include grid-span(1,2);
+      }
+    }
+  }
+}

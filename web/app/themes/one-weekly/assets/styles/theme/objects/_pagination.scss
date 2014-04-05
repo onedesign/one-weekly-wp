@@ -1,0 +1,18 @@
+.pagination {
+  @include clearfix(true);
+  margin-bottom: 1rem;
+}
+
+.pagination__prev,
+.pagination__next {
+  width: 50%;
+}
+
+.pagination__prev {
+  float: left;
+}
+
+.pagination__next {
+  text-align: right;
+  float: right;
+}

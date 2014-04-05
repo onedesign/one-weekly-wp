@@ -1,0 +1,8 @@
+.widget {
+  margin-bottom: 2rem;
+}
+
+.widget-inner h3 {
+  @include ts(h5);
+  margin-bottom: .5rem;
+}

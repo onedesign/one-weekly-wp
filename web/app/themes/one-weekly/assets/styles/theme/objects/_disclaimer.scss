@@ -1,0 +1,8 @@
+.disclaimer {
+  @include ts(small);
+  
+}
+
+.disclaimer--site-copyright {
+  color: tint(color(dark-background), 15);
+}

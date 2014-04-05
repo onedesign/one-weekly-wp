@@ -1,0 +1,595 @@
+/* line 1, ../../../../../../../../../../../.rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/toolkit-2.2.0/stylesheets/toolkit/_kickstart.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 11, ../../../../../../../../../../../.rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/toolkit-2.2.0/stylesheets/toolkit/_kickstart.scss */
+img, video {
+  max-width: 100%;
+  height: auto; }
+
+/* line 8, ../../../../assets/styles/scratch/vendor/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* line 29, ../../../../assets/styles/scratch/vendor/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 33, ../../../../assets/styles/scratch/vendor/_reset.scss */
+body {
+  line-height: 1; }
+
+/* line 36, ../../../../assets/styles/scratch/vendor/_reset.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 39, ../../../../assets/styles/scratch/vendor/_reset.scss */
+blockquote, q {
+  quotes: none; }
+
+/* line 42, ../../../../assets/styles/scratch/vendor/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 47, ../../../../assets/styles/scratch/vendor/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 5, ../../../../assets/styles/scratch/helpers/_selections.scss */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+/* line 10, ../../../../assets/styles/scratch/helpers/_selections.scss */
+::selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+/* FORM RESET via  http://css-tricks.com/forums/topic/a-reset-for-forms/ */
+/* line 3, ../../../../assets/styles/scratch/base/_form-reset.scss */
+textarea,
+select,
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  -webkit-appearance: none;
+  background-color: #fff;
+  color: #000;
+  outline: 0;
+  text-align: left;
+  font-size: 1em;
+  vertical-align: middle; }
+
+/* line 34, ../../../../assets/styles/scratch/base/_form-reset.scss */
+select, select, select {
+  background: white url(data:image/png;base64,R0lGODlhDQAEAIAAAAAAAP8A/yH5BAEHAAEALAAAAAANAAQAAAILhA+hG5jMDpxvhgIAOw==);
+  background-repeat: no-repeat;
+  background-position: 97% center;
+  padding: 0 25px 0 8px;
+  font-size: 0.875em; }
+
+/* line 2, ../../../../assets/styles/scratch/base/_typography.scss */
+body {
+  font-size: rem(16);
+  line-height: 1.6;
+  color: #222222;
+  font-family: "HelveticaNeue", "Helvetica", "Arial", sans-serif; }
+
+/* line 12, ../../../../assets/styles/scratch/base/_typography.scss */
+.giga {
+  font-size: 5.0625rem;
+  line-height: 1.1; }
+
+/* line 12, ../../../../assets/styles/scratch/base/_typography.scss */
+.mega {
+  font-size: 3.7037rem;
+  line-height: 1.2; }
+
+/* line 12, ../../../../assets/styles/scratch/base/_typography.scss */
+.super {
+  font-size: 3.375rem;
+  line-height: 1.2; }
+
+/* line 12, ../../../../assets/styles/scratch/base/_typography.scss */
+.h1 {
+  font-size: 2.46914rem;
+  line-height: 1.2; }
+
+/* line 12, ../../../../assets/styles/scratch/base/_typography.scss */
+.h2 {
+  font-size: 2.25rem;
+  line-height: 1.3; }
+
+/* line 12, ../../../../assets/styles/scratch/base/_typography.scss */
+.h3 {
+  font-size: 1.64609rem;
+  line-height: 1.4; }
+
+/* line 12, ../../../../assets/styles/scratch/base/_typography.scss */
+.h4 {
+  font-size: 1.5rem;
+  line-height: 1.4; }
+
+/* line 12, ../../../../assets/styles/scratch/base/_typography.scss */
+.h5 {
+  font-size: 1.09739rem;
+  line-height: 1.4; }
+
+/* line 12, ../../../../assets/styles/scratch/base/_typography.scss */
+.h6 {
+  font-size: 1rem;
+  line-height: 1.4; }
+
+/* line 12, ../../../../assets/styles/scratch/base/_typography.scss */
+.small {
+  font-size: 0.875rem;
+  line-height: 1.6; }
+
+/* line 12, ../../../../assets/styles/scratch/base/_typography.scss */
+.micro {
+  font-size: 0.75rem;
+  line-height: 1.6; }
+
+/* line 18, ../../../../assets/styles/scratch/base/_typography.scss */
+h1 {
+  font-size: 2.46914rem;
+  line-height: 1.2; }
+
+/* line 18, ../../../../assets/styles/scratch/base/_typography.scss */
+h2 {
+  font-size: 2.25rem;
+  line-height: 1.3; }
+
+/* line 18, ../../../../assets/styles/scratch/base/_typography.scss */
+h3 {
+  font-size: 1.64609rem;
+  line-height: 1.4; }
+
+/* line 18, ../../../../assets/styles/scratch/base/_typography.scss */
+h4 {
+  font-size: 1.5rem;
+  line-height: 1.4; }
+
+/* line 18, ../../../../assets/styles/scratch/base/_typography.scss */
+h5 {
+  font-size: 1.09739rem;
+  line-height: 1.4; }
+
+/* line 18, ../../../../assets/styles/scratch/base/_typography.scss */
+h6 {
+  font-size: 1rem;
+  line-height: 1.4; }
+
+/* line 24, ../../../../assets/styles/scratch/base/_typography.scss */
+.secondary-type {
+  font-family: Georgia, Times, "Times New Roman", serif; }
+
+/* line 3, ../../../../assets/styles/scratch/objects/_media.scss */
+.media {
+  display: block; }
+  /* line 13, ../../../../../../../../../../../.rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/toolkit-2.2.0/stylesheets/toolkit/_clearfix.scss */
+  .media:after, .nav:after, .row:after, .pagination:after, .site-nav:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+/* line 7, ../../../../assets/styles/scratch/objects/_media.scss */
+.media__img {
+  float: left;
+  margin-right: 1rem; }
+
+/**
+ * Reversed image location (right instead of left).
+ */
+/* line 14, ../../../../assets/styles/scratch/objects/_media.scss */
+.media__img--rev {
+  float: right;
+  margin-left: 1rem; }
+
+/* line 19, ../../../../assets/styles/scratch/objects/_media.scss */
+.media__img img,
+.media__img--rev img {
+  display: block; }
+
+/* line 24, ../../../../assets/styles/scratch/objects/_media.scss */
+.media__body {
+  overflow: hidden; }
+
+/* line 27, ../../../../assets/styles/scratch/objects/_media.scss */
+.media__body,
+.media__body > :last-child {
+  margin-bottom: 0; }
+
+/* line 3, ../../../../assets/styles/scratch/objects/_nav.scss */
+.nav {
+  list-style: none;
+  margin-left: 0; }
+  /* line 10, ../../../../assets/styles/scratch/objects/_nav.scss */
+  .nav > li,
+  .nav > li > a {
+    display: inline-block;
+    *display: inline;
+    zoom: 1; }
+
+/* line 20, ../../../../assets/styles/scratch/objects/_nav.scss */
+.nav--stacked li {
+  display: list-item; }
+  /* line 23, ../../../../assets/styles/scratch/objects/_nav.scss */
+  .nav--stacked li > a {
+    display: block; }
+
+/* line 1, ../../../../assets/styles/theme/base/_globals.scss */
+body {
+  background-color: #e6e6e7;
+  font-family: "proxima-nova", "HelveticaNeue", "Helvetica", "Arial", sans-serif; }
+
+/* line 6, ../../../../assets/styles/theme/base/_globals.scss */
+a {
+  text-decoration: none;
+  color: #13d962;
+  -moz-transition-property: color;
+  -o-transition-property: color;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -moz-transition-duration: 0.25s;
+  -o-transition-duration: 0.25s;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out; }
+  /* line 24, ../../../../../../../../../../../.rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/typography/links/_link-colors.scss */
+  a:hover {
+    color: #0b823a; }
+
+/* line 14, ../../../../assets/styles/theme/base/_globals.scss */
+.site-footer {
+  margin-top: 2.5rem;
+  padding: 1rem 0;
+  background-color: #cfcfcf; }
+  /* line 19, ../../../../assets/styles/theme/base/_globals.scss */
+  .home .site-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%; }
+
+/* line 27, ../../../../assets/styles/theme/base/_globals.scss */
+.site-header {
+  padding: 1rem 0 0;
+  background-color: #2b2b30;
+  margin-bottom: 1.875rem; }
+  /* line 32, ../../../../assets/styles/theme/base/_globals.scss */
+  .home .site-header {
+    padding: 0; }
+
+/* line 37, ../../../../assets/styles/theme/base/_globals.scss */
+.main-nav {
+  background-color: #444448; }
+
+/* line 41, ../../../../assets/styles/theme/base/_globals.scss */
+.page-header {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #222222; }
+
+/* line 1, ../../../../assets/styles/theme/base/_page-specific.scss */
+.home {
+  background-color: #2b2b30;
+  color: white; }
+
+/* line 6, ../../../../assets/styles/theme/base/_page-specific.scss */
+.welcome-message {
+  margin-bottom: 1rem; }
+
+/* line 11, ../../../../assets/styles/theme/base/_page-specific.scss */
+.page-content h1, .page-content h2, .page-content h3, .page-content h4, .page-content h5, .page-content h6 {
+  margin-bottom: 1rem; }
+/* line 15, ../../../../assets/styles/theme/base/_page-specific.scss */
+.page-content p {
+  margin: 0 0 1rem 0; }
+
+/* line 1, ../../../../assets/styles/theme/objects/_article-list.scss */
+.article-list__post {
+  margin-bottom: 1.5rem; }
+
+/* line 1, ../../../../assets/styles/theme/objects/_buttons.scss */
+.btn {
+  display: inline-block;
+  color: #2b2b30;
+  background-color: #13d962;
+  padding: .5em 1em;
+  -moz-transition-property: background-color;
+  -o-transition-property: background-color;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+  -moz-transition-duration: 0.25s;
+  -o-transition-duration: 0.25s;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out; }
+  /* line 11, ../../../../assets/styles/theme/objects/_buttons.scss */
+  .btn:hover {
+    background-color: #0b823a; }
+
+/* line 1, ../../../../assets/styles/theme/objects/_disclaimer.scss */
+.disclaimer {
+  font-size: 0.875rem;
+  line-height: 1.6; }
+
+/* line 6, ../../../../assets/styles/theme/objects/_disclaimer.scss */
+.disclaimer--site-copyright {
+  color: #4a4a4f; }
+
+/* line 1, ../../../../assets/styles/theme/objects/_grid.scss */
+.row {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 900px; }
+
+/* line 10, ../../../../assets/styles/theme/objects/_grid.scss */
+.row--lg .lg__main,
+.row--lg .lg__aside {
+  max-width: 35rem;
+  margin: 0 auto; }
+@media (min-width: 900px) {
+  /* line 16, ../../../../assets/styles/theme/objects/_grid.scss */
+  .row--lg .lg__main--sidebar {
+    width: 63.15789%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none; } }
+@media (min-width: 900px) {
+  /* line 22, ../../../../assets/styles/theme/objects/_grid.scss */
+  .row--lg .lg__aside {
+    width: 31.57895%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; } }
+
+/* line 1, ../../../../assets/styles/theme/objects/_headings.scss */
+h1, h2, h3, h4, h5, h6
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "futura-pt", "HelveticaNeue", "Helvetica", "Arial", sans-serif; }
+
+/* line 1, ../../../../assets/styles/theme/objects/_logo.scss */
+.odc-logo {
+  max-width: 100px;
+  margin: 0 auto 1rem;
+  display: block; }
+
+/* line 7, ../../../../assets/styles/theme/objects/_logo.scss */
+.odc-logo--home {
+  display: block;
+  margin: 4rem auto 2rem; }
+
+/* line 1, ../../../../assets/styles/theme/objects/_meta.scss */
+.meta {
+  color: #8a8a8a; }
+
+/* line 5, ../../../../assets/styles/theme/objects/_meta.scss */
+.meta__postdate,
+.meta__author,
+.meta__categories {
+  display: inline-block; }
+
+/* line 11, ../../../../assets/styles/theme/objects/_meta.scss */
+.permalink {
+  display: inline-block;
+  vertical-align: baseline;
+  float: right;
+  margin-left: .5rem;
+  color: #b8b8b8; }
+  /* line 18, ../../../../assets/styles/theme/objects/_meta.scss */
+  .permalink:hover {
+    color: #8a8a8a; }
+
+/* line 1, ../../../../assets/styles/theme/objects/_pagination.scss */
+.pagination {
+  margin-bottom: 1rem; }
+
+/* line 6, ../../../../assets/styles/theme/objects/_pagination.scss */
+.pagination__prev,
+.pagination__next {
+  width: 50%; }
+
+/* line 11, ../../../../assets/styles/theme/objects/_pagination.scss */
+.pagination__prev {
+  float: left; }
+
+/* line 15, ../../../../assets/styles/theme/objects/_pagination.scss */
+.pagination__next {
+  text-align: right;
+  float: right; }
+
+/* line 1, ../../../../assets/styles/theme/objects/_post.scss */
+.post {
+  margin-bottom: 3rem; }
+
+/* line 5, ../../../../assets/styles/theme/objects/_post.scss */
+.post__title {
+  font-size: 1.64609rem;
+  line-height: 1.4;
+  margin-bottom: .5rem; }
+
+/* line 10, ../../../../assets/styles/theme/objects/_post.scss */
+.post__title--link {
+  display: inline-block; }
+
+/* line 14, ../../../../assets/styles/theme/objects/_post.scss */
+.post__meta {
+  margin-top: 1rem;
+  padding-top: .25rem;
+  border-top: 3px solid #dadadb; }
+
+/* line 1, ../../../../assets/styles/theme/objects/_section.scss */
+.section {
+  margin-bottom: 2rem; }
+
+/* line 5, ../../../../assets/styles/theme/objects/_section.scss */
+.section__title {
+  font-size: 1rem;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: .01em;
+  margin-top: 1.5rem;
+  margin-bottom: .5rem; }
+
+/* Mailchimp form */
+/* line 3, ../../../../assets/styles/theme/objects/_signup-form.scss */
+.mc-field-group {
+  position: relative;
+  border: 3px solid white;
+  border-radius: 2rem;
+  background-color: white;
+  padding-right: 6.25rem;
+  padding-left: .5rem;
+  max-width: 400px;
+  margin: 2rem auto 0; }
+
+/* line 14, ../../../../assets/styles/theme/objects/_signup-form.scss */
+#mce-EMAIL {
+  border: 0;
+  border-radius: 2rem;
+  font-size: 1rem;
+  padding: .5rem .25rem;
+  height: 100%;
+  font-family: "proxima-nova", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+  width: 100%; }
+
+/* line 24, ../../../../assets/styles/theme/objects/_signup-form.scss */
+#mc-embedded-subscribe {
+  border: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: .5em 1em;
+  font-size: 1rem;
+  border-radius: 2rem;
+  font-family: "proxima-nova", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+  font-weight: 700;
+  color: #2b2b30;
+  background-color: #13d962;
+  -moz-transition-property: background-color, color;
+  -o-transition-property: background-color, color;
+  -webkit-transition-property: background-color, color;
+  transition-property: background-color, color;
+  -moz-transition-duration: 0.25s;
+  -o-transition-duration: 0.25s;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out; }
+  /* line 42, ../../../../assets/styles/theme/objects/_signup-form.scss */
+  #mc-embedded-subscribe:hover {
+    color: #e9e9ea;
+    background-color: #0b823a; }
+
+/* line 4, ../../../../assets/styles/theme/objects/_site-nav.scss */
+.site-nav > li {
+  width: 50%;
+  text-align: center;
+  float: left; }
+/* line 10, ../../../../assets/styles/theme/objects/_site-nav.scss */
+.site-nav a {
+  display: block;
+  padding: .5rem 0; }
+
+/* line 4, ../../../../assets/styles/theme/objects/_site-search.scss */
+.site-search__input-group {
+  background: white;
+  position: relative;
+  border: 3px solid white;
+  border-radius: 3rem;
+  padding-right: 100px; }
+
+/* line 12, ../../../../assets/styles/theme/objects/_site-search.scss */
+.site-search__label {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+/* line 16, ../../../../assets/styles/theme/objects/_site-search.scss */
+.site-search__search-field {
+  border: 0;
+  width: 100%;
+  padding: .5em;
+  font-size: 1rem;
+  font-family: "proxima-nova", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+  height: 100%;
+  border-radius: 3rem; }
+
+/* line 26, ../../../../assets/styles/theme/objects/_site-search.scss */
+.site-search__submit {
+  -webkit-appearance: none;
+  width: 90px;
+  margin: 0;
+  border: 0;
+  font-family: "proxima-nova", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+  font-size: 1rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 3rem; }
+
+/* line 1, ../../../../assets/styles/theme/objects/_widget.scss */
+.widget {
+  margin-bottom: 2rem; }
+
+/* line 5, ../../../../assets/styles/theme/objects/_widget.scss */
+.widget-inner h3 {
+  font-size: 1.09739rem;
+  line-height: 1.4;
+  margin-bottom: .5rem; }

@@ -1,0 +1,14 @@
+.btn {
+  display: inline-block;
+  color: color(dark-background);
+  background-color: color(primary);
+  padding: .5em 1em;
+
+  @include transition-property(background-color);
+  @include transition-duration();
+  @include transition-timing-function();
+
+  &:hover {
+    background-color: shade(color(primary), 40);
+  }
+}

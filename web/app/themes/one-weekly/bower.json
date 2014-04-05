@@ -1,0 +1,22 @@
+{
+  "name": "one-weekly",
+  "version": "0.1.0",
+  "homepage": "http://weekly.onedesigncompany.com",
+  "authors": [
+    "Brian Hanson <brian@brianhanson.net>"
+  ],
+  "description": "A simple blog for our weekly newsletter",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "assets/bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "modernizr": "~2.7.2"
+  }
+}

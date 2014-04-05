@@ -1,0 +1,11 @@
+.section {
+  margin-bottom: 2rem;
+}
+
+.section__title {
+  @include ts(h6);
+  text-transform: uppercase;
+  letter-spacing: .01em;
+  margin-top: 1.5rem;
+  margin-bottom: .5rem;
+}
