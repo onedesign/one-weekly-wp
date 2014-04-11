@@ -1,15 +1,7 @@
 <?php while (have_posts()) : the_post(); ?>
 
-<!-- <img src="img/bg_lvl1_bottom-right.png" alt="" class="plax plax__level1 bottom-right">
-<img src="img/bg_lvl1_top-left.png" alt="" class="plax plax__level1 top-left">
-<img src="img/bg_lvl1_bottom-left.png" alt="" class="plax plax__level1 bottom-left">
-<img src="img/bg_lvl2_top-right.png" alt="" class="plax plax__level2 top-right">
-<img src="img/bg_lvl3_bottom-right.png" alt="" class="plax plax__level3 bottom-right">
-<img src="img/bg_lvl3_top-left.png" alt="" class="plax plax__level3 top-left"> -->
-
-<img src="<?php echo get_template_directory_uri(); ?>/dist/img/odc_logo.svg" alt="One Design Company" class="odc-logo odc-logo--home">
-
 <div class="page-content">
+  <img src="<?php echo get_template_directory_uri(); ?>/dist/img/odc_logo.svg" alt="One Design Company" class="odc-logo odc-logo--home">
   <?php the_content(); ?>
 </div>
 

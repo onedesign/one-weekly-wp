@@ -28,7 +28,8 @@ module.exports = function(grunt) {
 		},
 		uglify: {
 			options: {
-				banner: '<%= banner %>'
+				banner: '<%= banner %>',
+				sourceMap: true
 			},
 			dist: {
 				src: '<%= concat.dist.dest %>',
@@ -66,7 +67,7 @@ module.exports = function(grunt) {
 					{ expand: true, cwd: 'patterns/source/images/sample/', src: '*', dest: 'patterns/public/images/sample/'},
 					{ expand: true, cwd: 'patterns/source/fonts/', src: '*', dest: 'patterns/public/fonts/'}
 				]
-			}
+			},
 		},
 		autoprefixer: {
 			options:{
@@ -116,7 +117,8 @@ module.exports = function(grunt) {
 				eqnull: true,
 				browser: true,
 				globals: {
-					jQuery: true
+					jQuery: true,
+					THREE: true
 				}
 			},
 			gruntfile: {
@@ -219,8 +221,8 @@ module.exports = function(grunt) {
 
 	// Default task.
 	grunt.registerTask('default', ['buildscripts', 'buildstyles', 'optimizeimages', 'buildpatterns']);
-	grunt.registerTask('buildpatterns', ['patternlab', 'copy']);
+	grunt.registerTask('buildpatterns', ['comass:patterns', 'patternlab', 'copy']);
 	grunt.registerTask('buildscripts', ['coffee_jshint', 'coffee', 'concat', 'uglify']);
-	grunt.registerTask('buildstyles', ['compass', 'autoprefixer','pixrem']);
+	grunt.registerTask('buildstyles', ['compass:dist', 'autoprefixer','pixrem']);
 	grunt.registerTask('optimizeimages', ['svgmin', 'svg2png', 'imagemin']);
 };
