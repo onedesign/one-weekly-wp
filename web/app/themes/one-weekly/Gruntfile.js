@@ -19,10 +19,11 @@ module.exports = function(grunt) {
 			dist: {
 				src: [
 					'assets/bower_components/jquery/dist/jquery.min.js', // take this out for WP dev
-					'assets/plugins/*.js',
-					'assets/main.js'
+					'assets/bower_components/threejs/build/three.min.js',
+					'assets/scripts/plugins/*.js',
+					'assets/scripts/main.js'
 				],
-				dest: 'dist/<%= pkg.name %>.min.js'
+				dest: 'dist/<%= pkg.name %>.js'
 			}
 		},
 		uglify: {
