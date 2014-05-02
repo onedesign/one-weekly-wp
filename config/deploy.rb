@@ -12,11 +12,11 @@ set :repo_url, 'https://github.com/onedesign/one-weekly-wp.git'
 # This could be overridden in a stage config file
 set :branch, :master
 
-set :deploy_to, "/srv/www/#{fetch(:application)}"
+set :deploy_to, "/var/www/#{fetch(:application)}"
 
 set :log_level, :info
 
-set :linked_files, %w{.env}
+set :linked_files, %w{.env .htaccess}
 set :linked_dirs, %w{web/app/uploads}
 
 namespace :deploy do
