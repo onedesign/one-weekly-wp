@@ -16,7 +16,7 @@ set :deploy_to, "/var/www/#{fetch(:application)}"
 
 set :log_level, :debug
 
-set :linked_files, %w{.env}
+set :linked_files, %w{.env .htaccess}
 set :linked_dirs, %w{web/app/uploads}
 
 namespace :deploy do
